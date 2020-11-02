@@ -27,3 +27,28 @@
     --fuente-bebasneue: "Bebasneue";
     --wedSymbolsRegular: "WebSymbolsRegular";
 }
+
+
+/* estilos GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/pattern.png);
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* CABECERA */
+
+.gear {
+    font-family: var(--wedSymbolsRegular);
+}
