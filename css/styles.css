@@ -46,9 +46,75 @@ body {
     margin: 0 auto;
 }
 
+.gear {
+    font-family: var(--wedSymbolsRegular);
+}
+
 
 /* CABECERA */
 
-.gear {
-    font-family: var(--wedSymbolsRegular);
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    font-family: var(--fuente-bebasneue);
+}
+
+#logo {
+    float: left;
+    width: 200px;
+    /* height: 50px; */
+    background-color: #37bcf9;
+    margin-top: 12px;
+    margin-left: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms;
+}
+
+#logo .gear {
+    display: block;
+    float: left;
+    font-size: 30px;
+    margin-top: 2px;
+    margin-left: 26px;
+}
+
+#logo h3 {
+    display: block;
+    float: right;
+    font-size: 35px;
+    margin-top: 2px;
+    transition: all 300ms;
+    margin-right: 65px;
+}
+
+#menu {
+    float: right;
+    height: 70px;
+    background-color: transparent;
+    /* margin-right: 15%; */
+}
+
+#menu ul li {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 20px;
+    letter-spacing: 1px;
+    line-height: 71px;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+#menu ul li a:hover {
+    color: #37bcf9;
+    transform: scale(1.2);
 }
