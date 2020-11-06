@@ -166,3 +166,29 @@ body {
     box-shadow: 1px 1px 2px #ccc;
     cursor: pointer;
 }
+
+.card .icon {
+    display: block;
+    width: 100%;
+    height: 130px;
+    font-size: 50px;
+    line-height: 110px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card .category {
+    width: 100%;
+    height: 50px;
+    font-family: var(--fuente-trabuche);
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    color: #00538c;
+}
+
+.card .description {
+    font-family: var(--fuente-trabuche);
+    color: #1a699e;
+    text-align: center;
+}
