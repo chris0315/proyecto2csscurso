@@ -115,7 +115,111 @@
     }
 }
 
-@media (max-width:833px) {
+@media (max-width:800px) {
+    #header {
+        height: 150px;
+    }
+    #banner h1 {
+        font-size: 2rem;
+    }
+    #logo {
+        text-align: center;
+        margin-left: 40%;
+    }
+    #menu {
+        text-align: center;
+        width: 100%;
+        float: left;
+        height: 87px;
+        background-color: #000000;
+    }
+    #menu ul li {
+        font-size: 24px;
+        margin: 2%;
+    }
+}
+
+@media (max-width:630px) {
+    #logo {
+        text-align: center;
+        margin-left: 30%;
+    }
+    .card {
+        width: 45%;
+    }
+    #lateral {
+        width: 90%;
+        float: none;
+    }
     #lateral input[type="button"],
-    #latera input[type="submit"] {}
+    #latera input[type="submit"] {
+        width: 14%;
+        margin-top: 0;
+    }
+    #article {
+        width: 100%;
+    }
+    #footer {
+        overflow: auto;
+    }
+    #footer .wrap>div {
+        width: 100%;
+    }
+}
+
+@media (max-width:410px) {
+    .wrap {
+        width: 80%;
+    }
+    #header {
+        text-align: center;
+    }
+    #menu ul li {
+        font-size: 20px;
+        margin: 2%;
+    }
+    #logo {
+        text-align: center;
+        margin-left: 20%;
+    }
+    #banner h1 {
+        font-size: 1.5rem;
+    }
+    #article .date {
+        font-size: 11px;
+        float: none;
+        margin-left: -10px;
+        border-radius: 0px;
+    }
+    #article article span {
+        width: 100%;
+    }
+    #article article h4 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:366px) {
+    .wrap {
+        width: 70%;
+    }
+    #menu ul li {
+        font-size: 1rem;
+        margin: 1%;
+    }
+    #banner h1 {
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+    .card {
+        width: 100%;
+    }
+    #lateral h3 {
+        font-size: 1.5rem;
+    }
+    #article h2 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
 }
