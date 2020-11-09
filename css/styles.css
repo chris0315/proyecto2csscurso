@@ -338,7 +338,7 @@ body {
 
 #lateral {
     width: 300px;
-    min-height: 1200px;
+    min-height: 1090px;
     font-family: var(--fuente-trabuche);
     float: right;
     margin: 20px;
@@ -402,7 +402,7 @@ aside h3 {
 
 .aside-box {
     width: 85%;
-    height: 240px;
+    height: 250px;
     margin: 0 auto;
     margin-top: 20px;
     padding-top: 2px;
@@ -543,7 +543,7 @@ aside h3 {
 
 #article h2 {
     display: block;
-    width: 100%;
+    width: 98%;
     height: 75px;
     line-height: 75px;
     text-align: center;
@@ -559,7 +559,7 @@ aside h3 {
 }
 
 #article article {
-    width: 100%;
+    width: 98%;
     height: auto;
     border: 1px solid #ccc;
     margin: 40px auto;
@@ -718,7 +718,6 @@ aside h3 {
 #footer ul li:hover a {
     margin-left: 40px;
     color: #fff;
-    font-size: 30px;
 }
 
 #footer iframe {

@@ -1,0 +1,121 @@
+@media (max-width: 1260px) {
+    .wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #banner h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .card {
+        width: 17%;
+        margin: 1.5%;
+    }
+    .card p {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #lateral {
+        width: 25%;
+    }
+    #aside h3 {}
+    #login input[type="submit"],
+    #login input[type="button"],
+    #login input[type="reset"],
+    #login button {
+        width: 38%;
+    }
+    #article {
+        width: 70%;
+    }
+    #article article {
+        width: 98%;
+    }
+    #article h2 {
+        width: 98%;
+    }
+    #footer .wrap>div {
+        width: 27%;
+        margin: 3%;
+    }
+    #footer #browsers img {
+        width: 14%;
+    }
+    #footer h5 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:1080px) {
+    #banner h1 {
+        width: 100%;
+    }
+    .card .category {
+        font-size: 18px;
+        padding: 3%;
+    }
+    .card .description {
+        font-size: 15px;
+        margin: 2%;
+    }
+}
+
+@media (max-width:890px) {
+    #banner h1 {
+        width: 100%;
+    }
+    #lateral input[type="button"],
+    #latera input[type="submit"] {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 5px;
+        background: #eee;
+        border: 1px solid #ccc;
+    }
+    #lateral h3 {
+        font-size: 26px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    #login input[type="submit"],
+    #login input[type="button"],
+    #login input[type="reset"],
+    #login button {
+        width: 85%;
+    }
+    #search {
+        width: 100%;
+    }
+    #login {
+        height: 300px;
+    }
+    .aside-box {
+        height: 150px;
+    }
+    #social .overlay {
+        font-size: 14px;
+    }
+    .card .category {
+        font-size: 16px;
+    }
+    .card .description {
+        font-size: 13px;
+    }
+    #article {
+        width: 69%;
+    }
+    #footer h5 {
+        font-size: 1.5rem;
+    }
+    #footer img {
+        width: 100%;
+    }
+}
+
+@media (max-width:833px) {
+    #lateral input[type="button"],
+    #latera input[type="submit"] {}
+}
